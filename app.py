@@ -6,5 +6,5 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("MovieVault")
+st.title("🎬MovieVault")
 st.write("Welcome to my OTT watchlist Manager!")
