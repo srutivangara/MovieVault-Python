@@ -14,5 +14,13 @@
         "status": "Watched",
         "rating": 5,
         "review": "Fantastic movie"
+    },
+    {
+        "title": "Dude",
+        "platform": "Netflix",
+        "genre": "Drama",
+        "status": "Watched",
+        "rating": 3,
+        "review": "dudoholic"
     }
 ]

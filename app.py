@@ -49,13 +49,13 @@ for movie in watchlist:
 
 # ---------------- SEARCH MOVIE ---------------- #
 
-search = st.text_input("🔍 Search Movie")
+search = st.text_input("🔍 Search by Movie or Platform")
 
 if search:
     found = False
 
     for movie in watchlist:
-        if search.lower() in movie["title"].lower():
+        if (search.lower() in movie["title"].lower() or search.lower() in movie["platform"].lower()):
 
             found = True
 
