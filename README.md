@@ -1,4 +1,4 @@
 # MovieVault
 An OTT Watchlist Manager built using Python and Streamlit.
 
-Currently under development
+Version 1.0 is ready
